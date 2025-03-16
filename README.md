@@ -18,7 +18,7 @@ PomoZen is a Pomodoro timer application built using Lynx, a modern framework for
 
 ### Prerequisites
 
-- Node.js (v14.0.0 or later)
+- Node.js (v18.0.0 or later)
 - npm (v6.0.0 or later)
 - LynxExplorer App installed on your mobile device
 
