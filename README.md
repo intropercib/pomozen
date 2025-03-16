@@ -1,21 +1,74 @@
-## Rspeedy project
+# PomoZen - A Pomodoro Timer App
 
-This is a ReactLynx project bootstrapped with `create-rspeedy`.
+PomoZen is a Pomodoro timer application built using Lynx, a modern framework for building cross-platform applications. Leveraging `@lynx-js/react` and bootstrapped with `create-rspeedy`, PomoZen offers a seamless and efficient user experience.
 
-## Getting Started
+## Project Structure
 
-First, install the dependencies:
-
-```bash
-pnpm install
+```
+|-- public/
+|-- src/
+|   |-- App.jsx         # Main application component
+|   |-- App.css         # Application styles
+|   |-- index.js        # Entry point
+|-- package.json
+|-- vite.config.js
 ```
 
-Then, run the development server:
+## Installation Guide
+
+### Prerequisites
+
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
+- LynxExplorer App installed on your mobile device
+
+### Step 1: Clone the Repository
 
 ```bash
-pnpm run dev
+git clone https://github.com/intropercib/pomozen
+cd pomozen
 ```
 
-Scan the QRCode in the terminal with your LynxExplorer App to see the result.
+### Step 2: Install Dependencies
 
-You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
+
+### Step 3: Start Development Server
+
+```bash
+npm run dev
+```
+
+### Step 4: Preview on Device
+
+1. Open the LynxExplorer App on your device
+2. Scan the QR code displayed in your terminal
+3. The PomoZen app will load on your device
+
+## Required Dependencies
+
+The following packages will be installed automatically:
+
+- [`@lynx-js/react`](https://www.npmjs.com/package/@lynx-js/react): Core Lynx React components
+- [`@lynx-js/rspeedy`](https://www.npmjs.com/package/@lynx-js/rspeedy): Build toolchain for Lynx projects
+- [`@lynx-js/lynx-explorer`](https://www.npmjs.com/package/@lynx-js/lynx-explorer): LynxExplorer app for previewing Lynx projects on mobile devices
+
+## Building for Production
+
+```bash
+npm run build
+```
+
+## Troubleshooting
+
+- Ensure your device and computer are on the same network
+- Check that LynxExplorer is the latest version
+- If QR code doesn't scan, try restarting the development server
+
+---
+
+<div align="center">
+Happy Coding! 🚀
+</div>
